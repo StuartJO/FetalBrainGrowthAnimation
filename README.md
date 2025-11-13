@@ -1,0 +1,5 @@
+This is code to make an animation of the growing brain. Can view the final product [here](https://youtu.be/C20GQ5CtVt0)
+
+I use data from the dHCP [fetal](https://gin.g-node.org/kcl_cdb/dhcp_fetal_brain_surface_atlas) and [neonatal](https://brain-development.org/brain-atlases/atlases-from-the-dhcp-project/cortical-surface-template/) surface atlases. The fetal atlas is 21-36 weeks gestational age (GA) while the neonatal atlas is 28-44 weeks gestational age. If you plot the fetal and neonatal surfaces of the same GA next to each other, you'll see they are a bit different. So to make a smooth animation, I just created a midpoint between the two surfaces. However because the folding patterns didn't perfectly correspond, I used my expert knowledge and extensive training in brain anatomy and development <sub>cough</sub> to manually alter the surface to getting it looking ok.
+
+Due to the aforementioned way the data for this animation was constructed, I would **_strongly_** advise against using this for any analysis. 
